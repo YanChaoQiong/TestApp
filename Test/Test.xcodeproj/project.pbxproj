@@ -415,6 +415,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.tensapp.com.Test;
@@ -426,6 +430,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.tensapp.com.Test;
@@ -498,6 +507,7 @@
 				337447F41D6C639700FE972B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		337447F51D6C639700FE972B /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +516,7 @@
 				337447F71D6C639700FE972B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		337447F81D6C639700FE972B /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +525,7 @@
 				337447FA1D6C639700FE972B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
